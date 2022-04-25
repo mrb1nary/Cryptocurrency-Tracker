@@ -36,6 +36,11 @@ console.log(filteredCoins)
 
 
   return (
+    <>
+    <div className="credits">
+      <p className="credits-first">Made with 💖 and 🍵 by</p>
+    <p className="credits-name">&nbsp; <a href="https://github.com/mrb1nary">mrb1nary</a> </p>
+    </div>
     <div className="App">
       <div className="coin-search">
         <h1 className="coin-text">Search a cryptocurrency</h1>
@@ -58,6 +63,7 @@ console.log(filteredCoins)
       })}
       
     </div>
+    </>
   );
 }
 

@@ -12,6 +12,28 @@
     color: #fff;
 }
 
+.credits{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.credits-first{
+    font-weight: 900;
+    color: rgb(137, 207, 109);
+}
+
+.credits-name{
+    text-decoration: none;
+    margin-top: 2px;
+    color: rgb(231, 92, 82);
+    
+}
+
+
+
 .App{
     display: flex;
     flex-direction: column;
